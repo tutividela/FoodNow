@@ -1,0 +1,158 @@
+#titulo{
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+#efect, #anadirDireccion, #anadirTelefono{
+	display:none;
+	background-color: rgba(127,16,18,0.3);
+	border:5px ridge #FF6D70;
+	border-radius: 10px;
+	padding: 20px;
+	margin:10px;
+}
+.inputsConfirm label{
+	margin-right: 30%;
+	font-size: 15px;
+	color:white;
+	text-shadow: 1px 1px 1px black;
+}
+.inputsConfirm input{
+	width:67%;
+	height: 34px;
+}
+.inputsConfirm select{
+	width:70%;
+	height: 34px;
+}
+.inputsConfirm{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.botones {
+	-moz-box-shadow: 3px 4px 4px -1px #8a2a21;
+	-webkit-box-shadow: 3px 4px 4px -1px #8a2a21;
+	box-shadow: 3px 4px 4px -1px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+	background-color:#f24537;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #eb605e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 15px #810e05;
+	margin: 10px;
+	padding: 5px;
+	width: 150px;
+}
+.botones:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24437;
+}
+.botones:active {
+	position:relative;
+	top:1px;
+}
+
+table{
+	width: 90%;
+	height: 50%;
+}
+td,th{
+	border: 2px solid pink;
+	border-collapse: collapse;
+	padding: 10px;
+}
+thead{
+	background-color: #FF2124
+}
+tfoot{
+	background-color: #C48D8A;
+}
+#ladoIzq, #ladoDer{
+	border:3px solid #d02718;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	-moz-box-shadow: 0px 1px 27px 14px #d16f66;
+	-webkit-box-shadow: 0px 1px 27px 14px #d16f66;
+	box-shadow: 0px 1px 27px 14px #d16f66;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #C43F36), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #C43F36 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #C43F36 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #C43F36 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #C43F36 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #C43F36 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#C43F36', endColorstr='#c62d1f',GradientType=0);
+	background-color:#C43F36;
+}
+#sesion{
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+#sesion:hover{
+	color:white;
+	text-shadow: 1px 1px 1px black;
+}
+#titulo, td, th, label, span, input, select, #sesion, #logo{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+table{
+	width: 100%;
+}
+td.campo{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 15px;
+	letter-spacing: -0.4px;
+	word-spacing: -1px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	padding: 10px;
+	text-align: center;
+}
+th{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 19px;
+	letter-spacing: 1.4px;
+	word-spacing: 0.2px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: normal;
+	text-transform: none;
+	border-bottom-style: solid;
+}
+tbody tr{
+	background-color: #FF6660;
+}
+tbody tr:hover{
+	background-color: #a85757;
+	
+}

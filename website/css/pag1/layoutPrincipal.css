@@ -1,0 +1,128 @@
+#header{
+	position: relative;
+	top:5%;
+	height: 60px;
+	margin:10px;
+}
+#contenido{
+	position: relative;
+	top: -10px;
+	height: 760px;
+	margin:10px;
+}
+#logo{
+	position: relative;
+	top:3px;
+	width: 70px;
+	height: 50px;
+	left:2px;
+}
+#titulo{
+	position: absolute;
+	top :13px;
+	width: 120px;
+	height: 50px;
+	z-index: 1;
+	left:80px;
+}
+#slogan{
+	position: absolute;
+	top:20px;
+	width: 400px;
+	left:50%;
+	margin-left: -160px;
+	z-index: 3;
+}
+#sesion{
+	position: relative;
+	top:8px;
+	width: 300px;
+	right: 10px;
+	z-index: 3;
+}
+#msjconfirma{
+	position:absolute;
+	float:left;
+	top:50px;
+	left:10px;
+}
+#msjPromo{
+	position:absolute;
+	float:left;
+	top:70px;
+	left:10px;
+}
+#botoneraLogin{
+	position: absolute;
+	right: 0;
+	top: 14px;
+	width: 300px;
+	height: 50px;
+}
+#imgfondo{
+	position: absolute;
+	width: 324px;
+	height: 270px;
+	top:200px;
+	left:50%;
+	margin-left: -162px;
+	z-index: 1;
+}
+#botonPedido{
+	position: absolute;
+	top:480px;
+	height: 100px;
+	width: 200px;
+	left:51%;
+	margin-left: -100px;
+	z-index: 1;
+}
+#slideshows1{
+	position: absolute;
+	top:50px;
+	height: 350px;
+	width: 571px;
+	left:10px;
+}
+#slideshows2{
+	position: absolute;
+	top:50px;
+	height: 350px;
+	width: 571px;
+	right:10px;
+}
+#slideshows3{
+	position: absolute;
+	top:400px;
+	height: 350px;
+	width: 571px;
+	left:10px;
+}
+#slideshows4{
+	position: absolute;
+	top:400px;
+	height: 350px;
+	width: 571px;
+	right:10px;
+}
+#formLogin{
+	position: absolute;
+	right: 5px;
+	width: 200px;
+	z-index: 3;
+}
+#formRegis{
+	position: absolute;
+	right: 125px;
+	width: 200px;
+	z-index: 3;
+}
+#seslist{
+	position: absolute;
+	right: 45px;
+	top:40px;
+	width: 250px;
+	z-index: 3;
+	padding-top: 10px;
+	padding-bottom:10px;
+}

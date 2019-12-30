@@ -1,0 +1,21 @@
+#header,#contenido{
+	margin-left: 10px;
+}
+#DTconfig{
+	margin: 10px 10px 10px 10px;
+}
+.DTlist{
+	margin-bottom: 10px;
+}
+#header_button,#header_title{
+	margin:10px 0px 10px 10px;
+}
+.DTdata{
+	margin-bottom: 10px;
+}
+#Dconfig,#Tconfig{
+	margin-top: 10px;
+}
+#header_button{
+	margin-right: 33%;
+}

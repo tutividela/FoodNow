@@ -1,0 +1,64 @@
+#header{
+	position: relative;
+	top:5%;
+	height: 60px;
+	margin:10px;
+}
+#titulo{
+	position: absolute;
+	top :7px;
+	width: 500px;
+	height: 80px;
+	z-index: 1;
+	margin-left: 50%;
+	left: -150px;
+}
+#contenido{
+	position: relative;
+	top: -10px;
+	height: 760px;
+	margin:10px;
+	padding-top: 40px;
+}
+#buscadores{
+	position: relative;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+}
+#resultados{
+	position: absolute;
+	margin-top: 10px;
+	margin-left:32px;
+	padding: 10px;
+	width: 95%;
+	right: 15px;
+}
+#list_ped{
+	position: absolute;
+	margin-left: 700px;
+    margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	display: none;
+	top: 18px;
+	right: 32px;
+	width: 40%;
+}
+#atras{
+	margin-left: 10px;
+	margin-top: 10px;
+	border-color: white;
+}
+#ordPrec{
+	position: relative;
+	top: 4px;
+}
+#botCarrito{
+	position: absolute;
+	right: 43px;
+	top: 15px;
+}
+#resultados table, #list_ped table{
+	width: 95%;
+}

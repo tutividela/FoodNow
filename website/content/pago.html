@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Confirmación del Pedido</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device−width, initial−scale=1.0" />
+		<link type="text/css" href="../css/estilos3.css" rel="stylesheet"></link>
+		<script src="../js/script3.js" type="text/javascript"></script>
+		<link href="../img/logo.png" rel="shortcut icon" type="image/x-icon" />
+	</head>
+	<body>
+		<div id="envolturaPrincipal">
+			<div id="header">
+				<p id="titulo">Confirmación del Pedido</p>
+			</div>
+			<div id="contenido">
+				<div id="ladoIzq">
+					<div id="divConfirm">
+						<form id="formConfirm" name="formConfirm">
+							<div class="inputsConfirm">
+								<label>Dirección</label>
+								<select name="direccion" id="direccion" onchange="addDir(this);" required>
+									<option value="0">Seleccionar..</option>
+									<option value="addDirec">Añadir Otra Dirección</option>
+								</select>
+								<script type="application/javascript">
+									document.getElementById("direccion").selectedIndex=0;
+								</script>
+							</div>
+							<div class="inputsConfirm" id="anadirDireccion">
+								<label>Calle</label>
+								<input type="text" name="addDireccion" id="nuevaDir" onblur="validarDir();">
+								<label>Número</label>
+								<input type="number" name="addDireccion" id="nuevoNum" onblur="validarDir();">
+							</div>
+							<div class="inputsConfirm">
+								<label>Teléfono</label>
+								<select name="telefono" id="telefono" onchange="addTel(this);" required>
+									<option value="0">Seleccionar..</option>
+									<option value="addTelef">Añadir Otro Teléfono</option>
+								</select>
+								<script type="application/javascript">
+									document.getElementById("telefono").selectedIndex=0;
+								</script>
+							</div>
+							<div class="inputsConfirm" id="anadirTelefono">
+								<label>Nuevo Teléfono</label>
+								<input type="number" name="addTelefono" onblur="validarTel(this);">
+							</div>
+							<div class="inputsConfirm">
+								<label>Forma de Pago</label>
+								<select name="formaPago" id="formaPago" onchange="addFormaPago(this);" required>
+									<option value="0">Seleccionar..</option>
+									<option value="efectivo">Efectivo en Entrega</option>
+									<option value="tarjeta">Tarjeta</option>
+								</select>
+								<script type="application/javascript">
+									document.getElementById("formaPago").selectedIndex=0;
+								</script>
+							</div>
+							<div class="inputsConfirm" id="efect">
+								<label>¿Con cuánto va a pagar?</label>
+								<input type="number" required>
+							</div>
+							<div id="botoneraConfirm">
+								<input type="button" value="Atras" class="botones" onclick="history.back();">
+								<input type="button" value="Confirmar" class="botones" onclick="validarFormulario();">
+							</div>
+						</form>
+					</div>
+				</div>
+				<div id="ladoDer">
+					<table>
+						<thead>
+							<tr>	
+								<th>Comida</th>
+								<th>Cantidad</th>
+								<th>Precio</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th></th>
+								<th>Total</th>
+								<th></th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

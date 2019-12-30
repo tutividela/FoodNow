@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Configurar Pedido</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device−width, initial−scale=1.0" />
+<link href="../img/logo.png" rel="shortcut icon" type="image/x-icon" />
+<script src="../js/script7.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../css/layoutcambiarDT.css">
+<link rel="stylesheet" type="text/css" href="../css/cambiarDT.css">
+<link rel="stylesheet" type="text/css" href="../css/general.css">
+</head>
+<body>
+	<div id="envolturaPrincipal">
+		<div id="header">
+			<a href=""><button id="header_button">Atras</button></a>
+            <span id="header_title">FoodNow</span>
+		</div>
+		<div id="contenido">
+			<div id="DTconfig">
+				<p class="txt">Domicilio Actual:</p>
+				<div id="Dconfig">
+					
+					
+						<label class="DTitulo">Cambiar Domicilio</label>
+						<select class="DTlist" onchange="cambiardom();" id="Dlist">
+							<option value="0">Seleccionar</option>
+							<option value="ND">Nuevo Domicilio</option>
+						</select>
+						<div id="Dcambio" style="display: none;">
+							<label class="DTitulo">Calle:</label>
+							<input type="text" class="DTdata"><br>
+							<label class="DTitulo">Numero:</label>
+							<input type="text" class="DTdata" size="8"><br>
+							<button class="DTbutton">Guardar</button>
+						</div>
+					
+				</div>
+				<div id="DTconfig">
+					<p class="txt">Telefono Actual:</p>
+					<div id="Tconfig">
+						<label class="DTitulo">Cambiar Telefono</label>
+						<select class="DTlist" onchange="cambiarTel();" id="Tlist">
+							<option value="0">Seleccionar</option>
+							<option value="NT">Nuevo Telefono</option>
+						</select>
+						<div id="Tcambio" style="display: none;">
+							<label class="DTitulo">Telefono:</label>
+							<input type="text" class="DTdata" size="10"><br>
+							<button class="DTbutton">Guardar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

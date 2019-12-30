@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arma tu Pedido</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device−width, initial−scale=1.0" />
+<link href="../img/logo.png" rel="shortcut icon" type="image/x-icon" />
+<script src="../js/script6.js" type="text/javascript"></script>
+<link type="text/css" href="../css/estilos6.css" rel="stylesheet">
+</head>
+<body>
+<div id="envolturaPrincipal">
+	<div id="header">
+		<a href="pedidoconfig.php"><button id="header_button">Atras</button></a>
+        <span id="titulo">FoodNow</span>
+	</div>
+	<div id="contenido">
+		<!--PHP del usuario -->
+		<p class="txt">Pedido Actual:</p>
+		<div id="pedactual">
+
+			<table>
+				<thead>
+					<tr>
+						<th>Comida</th>
+						<th>Restaurant</th>
+						<th>Precio</th>
+						<th>Cantidad</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody class="tablas">
+					<td>Hamburguesa</td>
+					<td>La Esquina</td>
+					<td>100</td>
+					<td>1</td>
+					<td>
+						<button class="e_n_button">Quitar</button>
+					</td>
+				</tbody>
+			</table>
+		</div>
+		<p class="txt">Configurar Pedido:</p>
+		<div id="pedconfig">
+			
+			<div id="buscadores">
+				<form>
+					<label>Restaurant:</label>
+					<select class="lista">
+						<option value="0">Cualquiera</option>
+					</select>
+					<label style="margin-left: 2cm;">Tipo Comida:</label>
+					<select class="lista">
+						<option value="0">Cualquiera</option>
+					</select>
+					<button class="e_n_button" style="margin-left: 2cm;">Buscar</button>
+				</form>
+			</div>
+			<div id="resultado">
+				<table>
+					<thead>
+						<tr>
+							<th>Restaurant</th>
+							<th>Comida</th>
+							<th>Precio</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody class="tablas">
+						<tr>
+							<td>Angies</td>
+							<td>Fideos</td>
+							<td>120</td>
+							<td>
+								<button class="e_n_button">Agregar</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

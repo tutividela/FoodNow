@@ -1,0 +1,40 @@
+
+/* ------------------------ INICIO: configuraciones generales ------------------------ */
+
+/* Selector universal: son seleccionados TODOS los elementos del documento html */
+* {
+    margin: 0; /* Reseteamos los margenes que traen por defecto cada navegador */
+    padding: 0; /* Reseteamos los rellenos que traen por defecto cada navegador */
+}
+/* Agregamos la barra/scroll lateral siempre */
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+/* Seleccionamos el BODY del documento */
+body {
+    font-family: Verdana; /* Establecemos la tipografía del documento */
+    font-size: 12px; /* Establecemos el tamaño de la tipografía */
+    width:95%;
+    margin:auto;
+    min-width:1230px;
+    max-width:1240px;
+	background:#CC403E no-repeat;
+}
+#header{
+	background:linear-gradient(#CC403E,#FF9C9A);
+}
+#contenido{
+	background:linear-gradient(#FF9C9A,#CC403E);
+}
+#envolturaPrincipal{
+    width: 95%;
+    margin:auto;
+}
+/* Seleccionamos parrafos del documento */
+p {
+    margin: 10px 0; /* Establecemos los margenes superior/inferior a 10px, y lo laterales izq/der a cero 0px */
+    line-height: 16px; /* Establecemos la altura del interlineado */
+}
+
+/* ------------------------ FIN: configuraciones generales ------------------------ */

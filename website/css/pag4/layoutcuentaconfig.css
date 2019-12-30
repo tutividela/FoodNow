@@ -1,0 +1,31 @@
+#header {
+	margin: 20px 10px 20px 10px;
+}
+#contenido {
+	margin: 20px 10px 20px 10px;
+
+}
+#header_button {
+	margin-left: 10px;
+	margin-right: 33%;
+	margin-bottom: 10px;
+}
+.content_data{
+	margin: 20px 10px 20px 10px;
+}
+.botones{
+	margin: 20px 0px 20px 0px;
+}
+.botones button {
+	margin: 20px 0px 10px 0px;
+}
+.passdata,.emaildata{
+	margin: 10px 0px 20px 0px;
+}
+.telefonos,.domicilios{
+	margin: 10px 0px 10px 0px;
+}
+#nombre{
+	margin-top: 20px;
+	margin-left: 10px;
+}

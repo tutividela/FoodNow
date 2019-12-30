@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arma tu Pedido</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device−width, initial−scale=1.0" />
+    <link type="text/css" href="../css/estilos2.css" rel="stylesheet"></link>
+    <script src="../js/script2.js" type="text/javascript"></script>
+    <link href="../img/logo.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+	<div id="envolturaPrincipal">
+		<div id="header">
+			<p id="titulo">Arma tu Pedido</p>
+			<a href="principal.html"><button type="button" class="botones" id="atras">Atras</button></a>
+		</div>
+		<div id="contenido">
+			<div id="buscadores">
+				<div class="tipo_busc">
+					<label class="Rst">Restaurant</label>
+					<input type="text" name="b_restaurant" class="caja" placeholder="Ej: 'Burger King'">
+				</div>
+				<div class="tipo_busc">
+				  
+				    <label >Tipo de Comida</label>
+					<select class="caja" class="TdC" id="sel_comida" onchange="addOtros(this);" required>
+				      <option value="0">Seleccionar...</option>
+                      <option value="hamburguesa">Comida Americana</option>
+				      <option value="panchos">Comida Italiana</option>
+					  <option value="pastas">Comida Francesa</option>
+				      <option value="carne_blanca">Comida Argentina</option>
+                      <option value="otros">Otros</option>
+					</select>
+					<script type="application/javascript">
+					  document.getElementById('sel_comida').selectedIndex=0;
+				    </script>
+				  
+					
+                </div>
+				<div class="tipo_busc">
+					<button type="button" onclick="ordenar_lista();" id="boton_ord">Ordenar por Precio</button>
+				</div>
+				<div class="tipo_busc">
+					<button type="button" id="boton_busc">Buscar</button>
+				</div>
+				<div class="TdC" id="aniadirOtros">
+						<label class="tit_busc">Ingrese el tipo de comida:</label>
+						<input type="text" name="otra_comida" class="caja">
+					</div>
+			</div>
+			<div id="resultados">
+				<label class="parte_buscador">Resultado de Busqueda</label>
+				<div id="espacio_de_busqueda" class="parte_buscador">
+					<table class="t_resultados">
+						<tr>
+							<th class="encabezado">Restaurant</th>
+							<th class="encabezado">Comida</th>
+							<th class="encabezado">Precio</th>
+						</tr>
+						<tr id="reg1">
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="agr_lista();" class="botones">Agregar</button></td>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="agr_lista();" class="botones">Agregar</button></td>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="agr_lista();" class="botones">Agregar</button></td>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="agr_lista();" class="botones">Agregar</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="list_ped">
+			<label class="parte_pedido">Lista de Pedido</label>
+				<div id="espacio_de_pedido" class="parte_pedido">
+					<table>
+						<tr>
+							<th>Restaurant</th>
+							<th>Comdia</th>
+							<th>Precio</th>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="quit_lista();" class="botones">Quitar</button></td>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="quit_lista();" class="botones">Quitar</button></td>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="quit_lista();" class="botones">Quitar</button></td>
+						</tr>
+						<tr>
+							<td class="campo">Burger King</td>
+							<td class="campo">Hamburguesa</td>
+							<td class="campo">200$</td>
+							<td><button type="button" onclick="quit_lista();" class="botones">Quitar</button></td>
+						</tr>
+					</table>
+				</div>
+				<div class="parte_pedido">
+					<a href="pago.html"><button type="button" class="botones">Listo!</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

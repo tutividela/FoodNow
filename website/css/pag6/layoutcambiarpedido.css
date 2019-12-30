@@ -1,0 +1,39 @@
+#header {
+	margin: 20px 10px 20px 10px;
+}
+#contenido {
+	margin: 20px 10px 20px 10px;
+
+}
+#header_button {
+	margin-left: 10px;
+	margin-right: 33%;
+	margin-bottom: 10px;
+}
+.txt{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#pedactual{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#pedconfig{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#buscadores , #resultado{
+	margin-top: 10px;
+}
+
+#pedactual table , #buscadores , #resultado {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#DTconfig{
+	margin-left: 10px;
+}
+#Dconfig,#Tconfig{
+	margin-top: 10px;
+}
